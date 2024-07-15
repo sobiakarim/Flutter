@@ -97,7 +97,7 @@ class _TaskCreationScreenState extends State<TaskCreationScreen> {
         title: Text(widget.task == null ? 'Create Task' : 'Edit Task', style: TextStyle(color: Colors.white, fontSize: 20, fontWeight: FontWeight.w500)),
         backgroundColor: Color(0xFF3C0A44),
         iconTheme: IconThemeData(
-          color: Colors.white, // Change this to your desired color
+          color: Colors.white,
         ),
       ),
 
